@@ -1,7 +1,7 @@
 const express = require('express');
-let axios = require('axios');
 const app = express();
 const ExpressError = require('./expressError');
+const userRoutes = require('./routes/users');
 
 app.use(express.json());
 app.use('/users', userRoutes); // routes are prefixed with 'users'
@@ -18,6 +18,10 @@ app.use((error, req, res, next) => {
   return res.status(status).json({
     error: { message, status }
   });
+});
+
+app.listen(3000, () => {
+  console.log('Sever starting on port 3000');
 });
 
 
