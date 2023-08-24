@@ -12,7 +12,7 @@
   <meta property="og:url" content="https://www.postgresql.org/" />
   <meta property="og:type" content="article" />
   <meta property="article:author" content="PostgreSQL Global Development Group" />
-  <meta property="article:published_time" content="2023-08-20T22:46:33.544432" />
+  <meta property="article:published_time" content="2023-08-21T22:36:47.550423" />
   <meta property="og:image" content="https://www.postgresql.org/media/img/about/press/elephant.png" />
   <meta property="og:title" content="PostgreSQL" />
   <meta property="og:description" content="The world&#x27;s most advanced open source database." />
@@ -315,6 +315,13 @@
         <ul class="divided">
           
             <li>
+              <h3><a href="/about/news/pgbadger-v122-published-2694/">pgBadger v12.2 published</a></h3>
+              <ul class="meta">
+                <li><i class="far fa-clock"></i>&nbsp;2023-08-21 by Gilles Darold</li>
+              </ul>
+            </li>
+          
+            <li>
               <h3><a href="/about/news/pgpool-ii-444-437-4214-4117-and-4024-released-2692/">Pgpool-II 4.4.4, 4.3.7, 4.2.14, 4.1.17 and 4.0.24 released.</a></h3>
               <ul class="meta">
                 <li><i class="far fa-clock"></i>&nbsp;2023-08-17 by Pgpool Global Development Group</li>
@@ -342,13 +349,6 @@
               </ul>
             </li>
           
-            <li>
-              <h3><a href="/about/news/postgresql-154-149-1312-1216-1121-and-postgresql-16-beta-3-released-2689/">PostgreSQL 15.4, 14.9, 13.12, 12.16, 11.21, and PostgreSQL 16 Beta 3 Released!</a></h3>
-              <ul class="meta">
-                <li><i class="far fa-clock"></i>&nbsp;2023-08-10 by PostgreSQL Global Development Group</li>
-              </ul>
-            </li>
-          
         </ul>
         <!-- END Archives -->
       </div>
@@ -366,6 +366,46 @@
    <!-- First Row Planet PostgreSQL -->
    <div class="row">
      <!-- First Column First Row Planet PostgreSQL -->
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/65_"> A Year of PGSQL Phriday Blogging Events</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Ryan Booz</li>
+              <li><i class="far fa-clock"></i>&nbsp;2023-08-21</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/65-"> EDB Security Advisory: Multiple PostgreSQL and EPAS Vulnerabilities</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Dan Garcia</li>
+              <li><i class="far fa-clock"></i>&nbsp;2023-08-21</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/65Z"> Configuring PostgreSQL and LDAP Using StartTLS</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Robert Bernier</li>
+              <li><i class="far fa-clock"></i>&nbsp;2023-08-21</li>
+            </ul>
+          </div>
+        </div>
+      
+        <div class="col-md-4">
+          <div class="text-center">
+            <h3><a href="https://postgr.es/p/65Y"> Learning PostgreSQL With Grant: Introducing VACUUM</a></h3>
+            <ul class="meta">
+              <li><i class="far fa-comments"></i>&nbsp;Grant Fritchey</li>
+              <li><i class="far fa-clock"></i>&nbsp;2023-08-21</li>
+            </ul>
+          </div>
+        </div>
       
         <div class="col-md-4">
           <div class="text-center">
@@ -413,46 +453,6 @@
             <ul class="meta">
               <li><i class="far fa-comments"></i>&nbsp;Andrew Atkinson</li>
               <li><i class="far fa-clock"></i>&nbsp;2023-08-17</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/65P"> Indexing “LIKE” in PostgreSQL and Oracle</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Laurenz Albe</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-08-16</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/65S"> Introducing pg_later: Asynchronous Queries for Postgres, Inspired by Snowflake</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Adam Hendel</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-08-16</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/65N"> Getting started with MobilityDB</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Ryan Lambert</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-08-15</li>
-            </ul>
-          </div>
-        </div>
-      
-        <div class="col-md-4">
-          <div class="text-center">
-            <h3><a href="https://postgr.es/p/65O"> PostGIS 3.4.0</a></h3>
-            <ul class="meta">
-              <li><i class="far fa-comments"></i>&nbsp;Regina Obe</li>
-              <li><i class="far fa-clock"></i>&nbsp;2023-08-15</li>
             </ul>
           </div>
         </div>

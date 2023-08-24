@@ -36,6 +36,7 @@ async function webUrl (url) {
         const fileName = url.replace(/^(https?:\/\/)?/i, '').replace(/[^a-zA-Z0-9-_]/g, '.');
         writeFile(fileName, res.data);
     } catch (err) {
+        console.log(err);
         console.log(`Couldn't download ${url}`);
         // console.log(err);
         // process.exit(1);

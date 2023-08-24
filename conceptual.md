@@ -10,6 +10,7 @@ Answer the following questions below:
 - What are the differences between an async function and a regular function?
   - Async functions always return promises. These functions will wait to obtain data and then return the value to finish out the function.
   - Regular functions will continue to run. They can even run before a preveious async function finishes.
+  - Regural functions are synchronous, async is asynchronous
 - What is the difference between Node.js and Express.js?
   - Node: A JavaScript environment that runs server-side. It do frontend and backend in JavaScript.
   - Express: A minimalist framework. Similar to Flask. Can run a server with a few lines.
@@ -20,9 +21,11 @@ Answer the following questions below:
 - What does the `next` function do?
   - the next function will go to the next route.
 - What are some issues with the following code? (consider all aspects: performance, structure, naming, etc)
-  - joel will not run until elie is complete and matt will not run until joel is complete. This method may take a while. Maybe use these in parallell.
   - the returned array doesn't match the order that the variables are called. This matter since they are awaiting responses
   - no error handling. Try/catch functions.
+  - they are independent of each other. give results at different times.
+  - there is no sequential order in which it will run (asynchronous nature)
+  - doesn't know which next function to run since there is no try/catch to show the promise, or reject
 
 ```js
 async function getUsers() {
